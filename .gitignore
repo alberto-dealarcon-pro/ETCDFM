@@ -50,3 +50,19 @@ venv/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# -------------------------------------------------------
+# Excepciones: ficheros de ejemplo en carpetas datos/
+# (se incluyen explicitamente para que se suban a GitHub)
+# -------------------------------------------------------
+!UD2/**/datos/*.csv
+!UD2/**/datos/*.tsv
+!UD2/**/datos/*.json
+!UD2/**/datos/*.xml
+!UD2/**/datos/*.xsd
+!UD2/**/datos/*.xlsx
+!UD2/**/datos/*.parquet
+!UD2/**/datos/*.feather
+!UD2/**/datos/*.arrow
+!UD2/**/datos/*.h5
+!UD2/**/datos/*.hdf5

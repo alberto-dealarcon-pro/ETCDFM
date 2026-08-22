@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogo version="1.0" fecha_creacion="2024-03-01">
+  <libro id="L001" disponible="true">
+    <titulo>El quijote</titulo>
+    <autor>Miguel de Cervantes</autor>
+    <ano>1605</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">38.05</precio>
+    <stock>22</stock>
+  </libro>
+  <libro id="L002" disponible="true">
+    <titulo>Cien anos de soledad</titulo>
+    <autor>Gabriel Garcia Marquez</autor>
+    <ano>1967</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">9.18</precio>
+    <stock>42</stock>
+  </libro>
+  <libro id="L003" disponible="true">
+    <titulo>La casa de los espiritus</titulo>
+    <autor>Isabel Allende</autor>
+    <ano>1982</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">20.93</precio>
+    <stock>44</stock>
+  </libro>
+  <libro id="L004" disponible="false">
+    <titulo>Ficciones</titulo>
+    <autor>Jorge Luis Borges</autor>
+    <ano>1944</ano>
+    <genero>Cuento</genero>
+    <precio moneda="EUR">18.49</precio>
+    <stock>41</stock>
+  </libro>
+  <libro id="L005" disponible="true">
+    <titulo>El amor en los tiempos del colera</titulo>
+    <autor>Gabriel Garcia Marquez</autor>
+    <ano>1985</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">42.61</precio>
+    <stock>38</stock>
+  </libro>
+  <libro id="L006" disponible="false">
+    <titulo>Rayuela</titulo>
+    <autor>Julio Cortazar</autor>
+    <ano>1963</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">39.80</precio>
+    <stock>10</stock>
+  </libro>
+  <libro id="L007" disponible="false">
+    <titulo>Los detectives salvajes</titulo>
+    <autor>Roberto Bolano</autor>
+    <ano>1998</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">49.93</precio>
+    <stock>46</stock>
+  </libro>
+  <libro id="L008" disponible="true">
+    <titulo>Conversacion en la catedral</titulo>
+    <autor>Mario Vargas Llosa</autor>
+    <ano>1969</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">12.09</precio>
+    <stock>10</stock>
+  </libro>
+  <libro id="L009" disponible="true">
+    <titulo>Pedro Paramo</titulo>
+    <autor>Juan Rulfo</autor>
+    <ano>1955</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">27.83</precio>
+    <stock>24</stock>
+  </libro>
+  <libro id="L010" disponible="true">
+    <titulo>El otono del patriarca</titulo>
+    <autor>Gabriel Garcia Marquez</autor>
+    <ano>1975</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">9.40</precio>
+    <stock>40</stock>
+  </libro>
+  <libro id="L011" disponible="false">
+    <titulo>La ciudad y los perros</titulo>
+    <autor>Mario Vargas Llosa</autor>
+    <ano>1963</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">18.28</precio>
+    <stock>35</stock>
+  </libro>
+  <libro id="L012" disponible="true">
+    <titulo>Dona Barbara</titulo>
+    <autor>Romulo Gallegos</autor>
+    <ano>1929</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">31.75</precio>
+    <stock>43</stock>
+  </libro>
+  <libro id="L013" disponible="true">
+    <titulo>El aleph</titulo>
+    <autor>Jorge Luis Borges</autor>
+    <ano>1949</ano>
+    <genero>Cuento</genero>
+    <precio moneda="EUR">9.25</precio>
+    <stock>49</stock>
+  </libro>
+  <libro id="L014" disponible="true">
+    <titulo>Cronopios y famas</titulo>
+    <autor>Julio Cortazar</autor>
+    <ano>1962</ano>
+    <genero>Cuento</genero>
+    <precio moneda="EUR">17.35</precio>
+    <stock>14</stock>
+  </libro>
+  <libro id="L015" disponible="true">
+    <titulo>El tunel</titulo>
+    <autor>Ernesto Sabato</autor>
+    <ano>1948</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">38.54</precio>
+    <stock>20</stock>
+  </libro>
+  <libro id="L016" disponible="true">
+    <titulo>La muerte de Artemio Cruz</titulo>
+    <autor>Carlos Fuentes</autor>
+    <ano>1962</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">33.61</precio>
+    <stock>17</stock>
+  </libro>
+  <libro id="L017" disponible="true">
+    <titulo>Sobre heroes y tumbas</titulo>
+    <autor>Ernesto Sabato</autor>
+    <ano>1961</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">18.36</precio>
+    <stock>13</stock>
+  </libro>
+  <libro id="L018" disponible="false">
+    <titulo>El senor presidente</titulo>
+    <autor>Miguel Angel Asturias</autor>
+    <ano>1946</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">35.70</precio>
+    <stock>45</stock>
+  </libro>
+  <libro id="L019" disponible="true">
+    <titulo>Paradiso</titulo>
+    <autor>Jose Lezama Lima</autor>
+    <ano>1966</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">46.04</precio>
+    <stock>13</stock>
+  </libro>
+  <libro id="L020" disponible="false">
+    <titulo>Terra nostra</titulo>
+    <autor>Carlos Fuentes</autor>
+    <ano>1975</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">8.31</precio>
+    <stock>31</stock>
+  </libro>
+  <libro id="L021" disponible="true">
+    <titulo>Machine Learning con Python</titulo>
+    <autor>Sebastian Raschka</autor>
+    <ano>2019</ano>
+    <genero>Tecnico</genero>
+    <precio moneda="EUR">45.87</precio>
+    <stock>41</stock>
+  </libro>
+  <libro id="L022" disponible="true">
+    <titulo>Deep Learning con TensorFlow</titulo>
+    <autor>Francois Chollet</autor>
+    <ano>2018</ano>
+    <genero>Tecnico</genero>
+    <precio moneda="EUR">40.81</precio>
+    <stock>9</stock>
+  </libro>
+  <libro id="L023" disponible="true">
+    <titulo>Python para Data Science</titulo>
+    <autor>Jake VanderPlas</autor>
+    <ano>2016</ano>
+    <genero>Tecnico</genero>
+    <precio moneda="EUR">23.99</precio>
+    <stock>8</stock>
+  </libro>
+  <libro id="L024" disponible="true">
+    <titulo>Estadistica para ML</titulo>
+    <autor>Aurelien Geron</autor>
+    <ano>2019</ano>
+    <genero>Tecnico</genero>
+    <precio moneda="EUR">15.31</precio>
+    <stock>47</stock>
+  </libro>
+  <libro id="L025" disponible="false">
+    <titulo>Aprendizaje automatico: fundamentos</titulo>
+    <autor>Pedro Domingos</autor>
+    <ano>2012</ano>
+    <genero>Tecnico</genero>
+    <precio moneda="EUR">52.99</precio>
+    <stock>34</stock>
+  </libro>
+  <libro id="L026" disponible="true">
+    <titulo>Redes neuronales profundas</titulo>
+    <autor>Ian Goodfellow</autor>
+    <ano>2016</ano>
+    <genero>Tecnico</genero>
+    <precio moneda="EUR">23.82</precio>
+    <stock>47</stock>
+  </libro>
+  <libro id="L027" disponible="false">
+    <titulo>Procesamiento del lenguaje natural</titulo>
+    <autor>Steven Bird</autor>
+    <ano>2009</ano>
+    <genero>Tecnico</genero>
+    <precio moneda="EUR">12.36</precio>
+    <stock>27</stock>
+  </libro>
+  <libro id="L028" disponible="false">
+    <titulo>Vision artificial con OpenCV</titulo>
+    <autor>Adrian Rosebrock</autor>
+    <ano>2016</ano>
+    <genero>Tecnico</genero>
+    <precio moneda="EUR">12.55</precio>
+    <stock>25</stock>
+  </libro>
+  <libro id="L029" disponible="true">
+    <titulo>MLOps en produccion</titulo>
+    <autor>Mark Treveil</autor>
+    <ano>2020</ano>
+    <genero>Tecnico</genero>
+    <precio moneda="EUR">47.83</precio>
+    <stock>14</stock>
+  </libro>
+  <libro id="L030" disponible="true">
+    <titulo>Feature Engineering para ML</titulo>
+    <autor>Alice Zheng</autor>
+    <ano>2016</ano>
+    <genero>Tecnico</genero>
+    <precio moneda="EUR">36.38</precio>
+    <stock>32</stock>
+  </libro>
+  <libro id="L031" disponible="true">
+    <titulo>El nombre de la rosa</titulo>
+    <autor>Umberto Eco</autor>
+    <ano>1980</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">45.94</precio>
+    <stock>5</stock>
+  </libro>
+  <libro id="L032" disponible="true">
+    <titulo>El perfume</titulo>
+    <autor>Patrick Suskind</autor>
+    <ano>1985</ano>
+    <genero>Novela</genero>
+    <precio moneda="EUR">42.30</precio>
+    <stock>7</stock>
+  </libro>
+  <libro id="L033" disponible="true">
+    <titulo>El codigo Da Vinci</titulo>
+    <autor>Dan Brown</autor>
+    <ano>2003</ano>
+    <genero>Thriller</genero>
+    <precio moneda="EUR">33.20</precio>
+    <stock>40</stock>
+  </libro>
+  <libro id="L034" disponible="true">
+    <titulo>Sapiens</titulo>
+    <autor>Yuval Noah Harari</autor>
+    <ano>2011</ano>
+    <genero>Ensayo</genero>
+    <precio moneda="EUR">53.74</precio>
+    <stock>50</stock>
+  </libro>
+  <libro id="L035" disponible="false">
+    <titulo>Homo Deus</titulo>
+    <autor>Yuval Noah Harari</autor>
+    <ano>2015</ano>
+    <genero>Ensayo</genero>
+    <precio moneda="EUR">25.79</precio>
+    <stock>27</stock>
+  </libro>
+  <libro id="L036" disponible="false">
+    <titulo>21 lecciones para el siglo XXI</titulo>
+    <autor>Yuval Noah Harari</autor>
+    <ano>2018</ano>
+    <genero>Ensayo</genero>
+    <precio moneda="EUR">33.95</precio>
+    <stock>4</stock>
+  </libro>
+  <libro id="L037" disponible="true">
+    <titulo>El mundo de Sofia</titulo>
+    <autor>Jostein Gaarder</autor>
+    <ano>1991</ano>
+    <genero>Ensayo</genero>
+    <precio moneda="EUR">46.98</precio>
+    <stock>24</stock>
+  </libro>
+  <libro id="L038" disponible="false">
+    <titulo>Una breve historia del tiempo</titulo>
+    <autor>Stephen Hawking</autor>
+    <ano>1988</ano>
+    <genero>Ciencia</genero>
+    <precio moneda="EUR">37.07</precio>
+    <stock>29</stock>
+  </libro>
+  <libro id="L039" disponible="false">
+    <titulo>El gen egoista</titulo>
+    <autor>Richard Dawkins</autor>
+    <ano>1989</ano>
+    <genero>Ciencia</genero>
+    <precio moneda="EUR">48.50</precio>
+    <stock>16</stock>
+  </libro>
+  <libro id="L040" disponible="false">
+    <titulo>El origen de las especies</titulo>
+    <autor>Charles Darwin</autor>
+    <ano>1859</ano>
+    <genero>Ciencia</genero>
+    <precio moneda="EUR">35.14</precio>
+    <stock>0</stock>
+  </libro>
+  <libro id="L041" disponible="false">
+    <titulo>Inteligencia artificial: una guia moderna</titulo>
+    <autor>Stuart Russell</autor>
+    <ano>2021</ano>
+    <genero>Tecnico</genero>
+    <precio moneda="EUR">41.11</precio>
+    <stock>46</stock>
+  </libro>
+  <libro id="L042" disponible="true">
+    <titulo>El dilema de las redes</titulo>
+    <autor>Jeff Orlowski</autor>
+    <ano>2020</ano>
+    <genero>Documental</genero>
+    <precio moneda="EUR">10.15</precio>
+    <stock>43</stock>
+  </libro>
+  <libro id="L043" disponible="false">
+    <titulo>Armas, germenes y acero</titulo>
+    <autor>Jared Diamond</autor>
+    <ano>1997</ano>
+    <genero>Ciencia</genero>
+    <precio moneda="EUR">18.71</precio>
+    <stock>48</stock>
+  </libro>
+  <libro id="L044" disponible="true">
+    <titulo>El capital en el siglo XXI</titulo>
+    <autor>Thomas Piketty</autor>
+    <ano>2013</ano>
+    <genero>Economia</genero>
+    <precio moneda="EUR">21.60</precio>
+    <stock>49</stock>
+  </libro>
+  <libro id="L045" disponible="false">
+    <titulo>Piense y hagase rico</titulo>
+    <autor>Napoleon Hill</autor>
+    <ano>1937</ano>
+    <genero>Autoayuda</genero>
+    <precio moneda="EUR">11.75</precio>
+    <stock>21</stock>
+  </libro>
+  <libro id="L046" disponible="true">
+    <titulo>Los siete habitos</titulo>
+    <autor>Stephen Covey</autor>
+    <ano>2013</ano>
+    <genero>Autoayuda</genero>
+    <precio moneda="EUR">18.94</precio>
+    <stock>18</stock>
+  </libro>
+  <libro id="L047" disponible="true">
+    <titulo>El arte de la guerra</titulo>
+    <autor>Sun Tzu</autor>
+    <ano>500</ano>
+    <genero>Filosofia</genero>
+    <precio moneda="EUR">12.75</precio>
+    <stock>10</stock>
+  </libro>
+  <libro id="L048" disponible="true">
+    <titulo>Fundacion</titulo>
+    <autor>Isaac Asimov</autor>
+    <ano>1951</ano>
+    <genero>Ciencia ficcion</genero>
+    <precio moneda="EUR">21.06</precio>
+    <stock>0</stock>
+  </libro>
+  <libro id="L049" disponible="false">
+    <titulo>Dune</titulo>
+    <autor>Frank Herbert</autor>
+    <ano>1965</ano>
+    <genero>Ciencia ficcion</genero>
+    <precio moneda="EUR">37.88</precio>
+    <stock>46</stock>
+  </libro>
+  <libro id="L050" disponible="true">
+    <titulo>1984</titulo>
+    <autor>George Orwell</autor>
+    <ano>1949</ano>
+    <genero>Dystopia</genero>
+    <precio moneda="EUR">25.15</precio>
+    <stock>32</stock>
+  </libro>
+</catalogo>

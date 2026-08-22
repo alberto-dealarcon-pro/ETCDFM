@@ -1,0 +1,4 @@
+id,nombre,precio,activo
+1,Ana Garcia,28.5,True
+2,Luis Perez,,False
+3,Eva Lopez,45.753,True

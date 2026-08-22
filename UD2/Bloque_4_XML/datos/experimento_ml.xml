@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<experimento id="EXP-2024-001" fecha="2024-03-15" estado="completado">
+  <nombre>Clasificacion MNIST con Red Neuronal Densa</nombre>
+  <descripcion>Experimento de referencia para clasificacion de digitos escritos a mano</descripcion>
+
+  <dataset nombre="MNIST">
+    <origen>http://yann.lecun.com/exdb/mnist/</origen>
+    <n_muestras total="70000">
+      <train>56000</train>
+      <validacion>7000</validacion>
+      <test>7000</test>
+    </n_muestras>
+    <n_clases>10</n_clases>
+    <dimensiones>28 28 1</dimensiones>
+    <preprocesamiento>
+      <paso tipo="normalizacion">dividir entre 255</paso>
+      <paso tipo="reshape">aplanar a 784</paso>
+    </preprocesamiento>
+  </dataset>
+
+  <modelo tipo="red_neuronal_densa" framework="TensorFlow 2.15">
+    <capas>
+      <capa id="1" tipo="dense" unidades="256" activacion="relu">
+        <regularizacion tipo="dropout" tasa="0.3"/>
+      </capa>
+      <capa id="2" tipo="dense" unidades="128" activacion="relu">
+        <regularizacion tipo="dropout" tasa="0.2"/>
+      </capa>
+      <capa id="3" tipo="dense" unidades="10" activacion="softmax"/>
+    </capas>
+    <parametros_totales>236554</parametros_totales>
+  </modelo>
+
+  <hiperparametros>
+    <epochs>50</epochs>
+    <batch_size>128</batch_size>
+    <learning_rate>0.001</learning_rate>
+    <optimizer>adam</optimizer>
+    <early_stopping patience="5" monitor="val_loss"/>
+  </hiperparametros>
+
+  <resultados>
+    <metrica nombre="accuracy_test">0.9847</metrica>
+    <metrica nombre="loss_test">0.0521</metrica>
+    <metrica nombre="accuracy_val_max">0.9863</metrica>
+    <epochs_ejecutados>38</epochs_ejecutados>
+    <tiempo_entrenamiento unidad="segundos">234</tiempo_entrenamiento>
+    <hardware>GPU NVIDIA RTX 4080</hardware>
+  </resultados>
+</experimento>
