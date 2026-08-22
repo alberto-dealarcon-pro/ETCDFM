@@ -1,0 +1,706 @@
+[
+  {
+    "id": 1,
+    "titulo": "Inception",
+    "director": "Christopher Nolan",
+    "ano": 2010,
+    "generos": [
+      "Ciencia Ficcion",
+      "Thriller",
+      "Accion"
+    ],
+    "duracion_min": 93,
+    "puntuaciones": {
+      "imdb": 8.7,
+      "rotten_tomatoes": 93,
+      "metacritic": 82
+    },
+    "recaudacion_millon_usd": 203.5,
+    "idioma_original": "Ingles",
+    "disponible_streaming": false,
+    "premios": {
+      "oscar_nominaciones": 1,
+      "oscar_ganados": 4
+    }
+  },
+  {
+    "id": 2,
+    "titulo": "The Matrix",
+    "director": "The Wachowskis",
+    "ano": 1999,
+    "generos": [
+      "Ciencia Ficcion",
+      "Accion"
+    ],
+    "duracion_min": 144,
+    "puntuaciones": {
+      "imdb": 7.7,
+      "rotten_tomatoes": 71,
+      "metacritic": 66
+    },
+    "recaudacion_millon_usd": 84.0,
+    "idioma_original": "Ingles",
+    "disponible_streaming": false,
+    "premios": {
+      "oscar_nominaciones": 9,
+      "oscar_ganados": 0
+    }
+  },
+  {
+    "id": 3,
+    "titulo": "Interstellar",
+    "director": "Christopher Nolan",
+    "ano": 2014,
+    "generos": [
+      "Ciencia Ficcion",
+      "Drama",
+      "Aventura"
+    ],
+    "duracion_min": 173,
+    "puntuaciones": {
+      "imdb": 8.5,
+      "rotten_tomatoes": 92,
+      "metacritic": 91
+    },
+    "recaudacion_millon_usd": 184.1,
+    "idioma_original": "Aleman",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 0,
+      "oscar_ganados": 1
+    }
+  },
+  {
+    "id": 4,
+    "titulo": "Parasite",
+    "director": "Bong Joon-ho",
+    "ano": 2019,
+    "generos": [
+      "Thriller",
+      "Drama"
+    ],
+    "duracion_min": 133,
+    "puntuaciones": {
+      "imdb": 8.8,
+      "rotten_tomatoes": 78,
+      "metacritic": 74
+    },
+    "recaudacion_millon_usd": 180.1,
+    "idioma_original": "Ingles",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 1,
+      "oscar_ganados": 3
+    }
+  },
+  {
+    "id": 5,
+    "titulo": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "ano": 2008,
+    "generos": [
+      "Accion",
+      "Crime",
+      "Drama"
+    ],
+    "duracion_min": 134,
+    "puntuaciones": {
+      "imdb": 7.7,
+      "rotten_tomatoes": 89,
+      "metacritic": 81
+    },
+    "recaudacion_millon_usd": 647.6,
+    "idioma_original": "Coreano",
+    "disponible_streaming": false,
+    "premios": {
+      "oscar_nominaciones": 1,
+      "oscar_ganados": 3
+    }
+  },
+  {
+    "id": 6,
+    "titulo": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "ano": 1994,
+    "generos": [
+      "Crime",
+      "Drama"
+    ],
+    "duracion_min": 127,
+    "puntuaciones": {
+      "imdb": 7.6,
+      "rotten_tomatoes": 96,
+      "metacritic": 88
+    },
+    "recaudacion_millon_usd": 466.1,
+    "idioma_original": "Ingles",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 10,
+      "oscar_ganados": 1
+    }
+  },
+  {
+    "id": 7,
+    "titulo": "Schindler's List",
+    "director": "Steven Spielberg",
+    "ano": 1993,
+    "generos": [
+      "Historia",
+      "Drama"
+    ],
+    "duracion_min": 100,
+    "puntuaciones": {
+      "imdb": 8.9,
+      "rotten_tomatoes": 97,
+      "metacritic": 79
+    },
+    "recaudacion_millon_usd": 694.5,
+    "idioma_original": "Coreano",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 7,
+      "oscar_ganados": 2
+    }
+  },
+  {
+    "id": 8,
+    "titulo": "The Lord of the Rings",
+    "director": "Peter Jackson",
+    "ano": 2001,
+    "generos": [
+      "Aventura",
+      "Drama",
+      "Fantasia"
+    ],
+    "duracion_min": 135,
+    "puntuaciones": {
+      "imdb": 7.8,
+      "rotten_tomatoes": 76,
+      "metacritic": 82
+    },
+    "recaudacion_millon_usd": 564.4,
+    "idioma_original": "Ingles",
+    "disponible_streaming": false,
+    "premios": {
+      "oscar_nominaciones": 10,
+      "oscar_ganados": 1
+    }
+  },
+  {
+    "id": 9,
+    "titulo": "Fight Club",
+    "director": "David Fincher",
+    "ano": 1999,
+    "generos": [
+      "Drama",
+      "Thriller"
+    ],
+    "duracion_min": 121,
+    "puntuaciones": {
+      "imdb": 8.5,
+      "rotten_tomatoes": 75,
+      "metacritic": 94
+    },
+    "recaudacion_millon_usd": 309.8,
+    "idioma_original": "Aleman",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 10,
+      "oscar_ganados": 2
+    }
+  },
+  {
+    "id": 10,
+    "titulo": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "ano": 1994,
+    "generos": [
+      "Drama",
+      "Romance"
+    ],
+    "duracion_min": 97,
+    "puntuaciones": {
+      "imdb": 9.0,
+      "rotten_tomatoes": 77,
+      "metacritic": 67
+    },
+    "recaudacion_millon_usd": 646.0,
+    "idioma_original": "Coreano",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 1,
+      "oscar_ganados": 1
+    }
+  },
+  {
+    "id": 11,
+    "titulo": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "ano": 1994,
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 162,
+    "puntuaciones": {
+      "imdb": 9.1,
+      "rotten_tomatoes": 98,
+      "metacritic": 85
+    },
+    "recaudacion_millon_usd": 178.0,
+    "idioma_original": "Coreano",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 10,
+      "oscar_ganados": 3
+    }
+  },
+  {
+    "id": 12,
+    "titulo": "Goodfellas",
+    "director": "Martin Scorsese",
+    "ano": 1990,
+    "generos": [
+      "Crime",
+      "Drama",
+      "Biopic"
+    ],
+    "duracion_min": 107,
+    "puntuaciones": {
+      "imdb": 7.8,
+      "rotten_tomatoes": 77,
+      "metacritic": 81
+    },
+    "recaudacion_millon_usd": 600.1,
+    "idioma_original": "Coreano",
+    "disponible_streaming": false,
+    "premios": {
+      "oscar_nominaciones": 6,
+      "oscar_ganados": 2
+    }
+  },
+  {
+    "id": 13,
+    "titulo": "The Silence of the Lambs",
+    "director": "Jonathan Demme",
+    "ano": 1991,
+    "generos": [
+      "Thriller",
+      "Crime",
+      "Terror"
+    ],
+    "duracion_min": 107,
+    "puntuaciones": {
+      "imdb": 7.9,
+      "rotten_tomatoes": 86,
+      "metacritic": 96
+    },
+    "recaudacion_millon_usd": 81.8,
+    "idioma_original": "Ingles",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 2,
+      "oscar_ganados": 1
+    }
+  },
+  {
+    "id": 14,
+    "titulo": "Seven",
+    "director": "David Fincher",
+    "ano": 1995,
+    "generos": [
+      "Crime",
+      "Thriller",
+      "Misterio"
+    ],
+    "duracion_min": 144,
+    "puntuaciones": {
+      "imdb": 8.9,
+      "rotten_tomatoes": 89,
+      "metacritic": 69
+    },
+    "recaudacion_millon_usd": 314.0,
+    "idioma_original": "Aleman",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 8,
+      "oscar_ganados": 2
+    }
+  },
+  {
+    "id": 15,
+    "titulo": "The Usual Suspects",
+    "director": "Bryan Singer",
+    "ano": 1995,
+    "generos": [
+      "Crime",
+      "Thriller",
+      "Misterio"
+    ],
+    "duracion_min": 91,
+    "puntuaciones": {
+      "imdb": 9.2,
+      "rotten_tomatoes": 91,
+      "metacritic": 72
+    },
+    "recaudacion_millon_usd": 548.6,
+    "idioma_original": "Aleman",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 10,
+      "oscar_ganados": 2
+    }
+  },
+  {
+    "id": 16,
+    "titulo": "Blade Runner 2049",
+    "director": "Denis Villeneuve",
+    "ano": 2017,
+    "generos": [
+      "Ciencia Ficcion",
+      "Drama",
+      "Misterio"
+    ],
+    "duracion_min": 145,
+    "puntuaciones": {
+      "imdb": 7.7,
+      "rotten_tomatoes": 75,
+      "metacritic": 94
+    },
+    "recaudacion_millon_usd": 12.6,
+    "idioma_original": "Ingles",
+    "disponible_streaming": false,
+    "premios": {
+      "oscar_nominaciones": 2,
+      "oscar_ganados": 4
+    }
+  },
+  {
+    "id": 17,
+    "titulo": "Mad Max: Fury Road",
+    "director": "George Miller",
+    "ano": 2015,
+    "generos": [
+      "Accion",
+      "Aventura",
+      "Ciencia Ficcion"
+    ],
+    "duracion_min": 170,
+    "puntuaciones": {
+      "imdb": 9.1,
+      "rotten_tomatoes": 79,
+      "metacritic": 97
+    },
+    "recaudacion_millon_usd": 491.1,
+    "idioma_original": "Ingles",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 2,
+      "oscar_ganados": 4
+    }
+  },
+  {
+    "id": 18,
+    "titulo": "Get Out",
+    "director": "Jordan Peele",
+    "ano": 2017,
+    "generos": [
+      "Terror",
+      "Misterio",
+      "Drama"
+    ],
+    "duracion_min": 157,
+    "puntuaciones": {
+      "imdb": 9.2,
+      "rotten_tomatoes": 99,
+      "metacritic": 65
+    },
+    "recaudacion_millon_usd": 483.2,
+    "idioma_original": "Coreano",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 1,
+      "oscar_ganados": 2
+    }
+  },
+  {
+    "id": 19,
+    "titulo": "Her",
+    "director": "Spike Jonze",
+    "ano": 2013,
+    "generos": [
+      "Ciencia Ficcion",
+      "Drama",
+      "Romance"
+    ],
+    "duracion_min": 129,
+    "puntuaciones": {
+      "imdb": 9.1,
+      "rotten_tomatoes": 77,
+      "metacritic": 68
+    },
+    "recaudacion_millon_usd": 200.3,
+    "idioma_original": "Aleman",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 1,
+      "oscar_ganados": 3
+    }
+  },
+  {
+    "id": 20,
+    "titulo": "Ex Machina",
+    "director": "Alex Garland",
+    "ano": 2014,
+    "generos": [
+      "Ciencia Ficcion",
+      "Drama",
+      "Thriller"
+    ],
+    "duracion_min": 158,
+    "puntuaciones": {
+      "imdb": 9.0,
+      "rotten_tomatoes": 94,
+      "metacritic": 73
+    },
+    "recaudacion_millon_usd": 111.4,
+    "idioma_original": "Coreano",
+    "disponible_streaming": false,
+    "premios": {
+      "oscar_nominaciones": 2,
+      "oscar_ganados": 2
+    }
+  },
+  {
+    "id": 21,
+    "titulo": "2001: A Space Odyssey",
+    "director": "Stanley Kubrick",
+    "ano": 1968,
+    "generos": [
+      "Ciencia Ficcion",
+      "Aventura"
+    ],
+    "duracion_min": 167,
+    "puntuaciones": {
+      "imdb": 8.4,
+      "rotten_tomatoes": 83,
+      "metacritic": 78
+    },
+    "recaudacion_millon_usd": 743.8,
+    "idioma_original": "Ingles",
+    "disponible_streaming": false,
+    "premios": {
+      "oscar_nominaciones": 4,
+      "oscar_ganados": 3
+    }
+  },
+  {
+    "id": 22,
+    "titulo": "Alien",
+    "director": "Ridley Scott",
+    "ano": 1979,
+    "generos": [
+      "Ciencia Ficcion",
+      "Terror"
+    ],
+    "duracion_min": 173,
+    "puntuaciones": {
+      "imdb": 9.3,
+      "rotten_tomatoes": 81,
+      "metacritic": 93
+    },
+    "recaudacion_millon_usd": 720.7,
+    "idioma_original": "Coreano",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 3,
+      "oscar_ganados": 1
+    }
+  },
+  {
+    "id": 23,
+    "titulo": "Terminator 2",
+    "director": "James Cameron",
+    "ano": 1991,
+    "generos": [
+      "Accion",
+      "Ciencia Ficcion"
+    ],
+    "duracion_min": 92,
+    "puntuaciones": {
+      "imdb": 7.6,
+      "rotten_tomatoes": 88,
+      "metacritic": 79
+    },
+    "recaudacion_millon_usd": 474.9,
+    "idioma_original": "Ingles",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 11,
+      "oscar_ganados": 0
+    }
+  },
+  {
+    "id": 24,
+    "titulo": "The Social Network",
+    "director": "David Fincher",
+    "ano": 2010,
+    "generos": [
+      "Drama",
+      "Historia",
+      "Biopic"
+    ],
+    "duracion_min": 94,
+    "puntuaciones": {
+      "imdb": 7.9,
+      "rotten_tomatoes": 97,
+      "metacritic": 86
+    },
+    "recaudacion_millon_usd": 66.0,
+    "idioma_original": "Ingles",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 10,
+      "oscar_ganados": 3
+    }
+  },
+  {
+    "id": 25,
+    "titulo": "Whiplash",
+    "director": "Damien Chazelle",
+    "ano": 2014,
+    "generos": [
+      "Drama",
+      "Musica"
+    ],
+    "duracion_min": 106,
+    "puntuaciones": {
+      "imdb": 7.9,
+      "rotten_tomatoes": 93,
+      "metacritic": 95
+    },
+    "recaudacion_millon_usd": 202.0,
+    "idioma_original": "Coreano",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 3,
+      "oscar_ganados": 0
+    }
+  },
+  {
+    "id": 26,
+    "titulo": "Birdman",
+    "director": "Alejandro Inarritu",
+    "ano": 2014,
+    "generos": [
+      "Drama",
+      "Comedia"
+    ],
+    "duracion_min": 145,
+    "puntuaciones": {
+      "imdb": 7.7,
+      "rotten_tomatoes": 81,
+      "metacritic": 92
+    },
+    "recaudacion_millon_usd": 334.8,
+    "idioma_original": "Ingles",
+    "disponible_streaming": false,
+    "premios": {
+      "oscar_nominaciones": 10,
+      "oscar_ganados": 0
+    }
+  },
+  {
+    "id": 27,
+    "titulo": "Spotlight",
+    "director": "Tom McCarthy",
+    "ano": 2015,
+    "generos": [
+      "Drama",
+      "Historia"
+    ],
+    "duracion_min": 133,
+    "puntuaciones": {
+      "imdb": 7.6,
+      "rotten_tomatoes": 95,
+      "metacritic": 71
+    },
+    "recaudacion_millon_usd": 206.4,
+    "idioma_original": "Ingles",
+    "disponible_streaming": false,
+    "premios": {
+      "oscar_nominaciones": 7,
+      "oscar_ganados": 1
+    }
+  },
+  {
+    "id": 28,
+    "titulo": "Moonlight",
+    "director": "Barry Jenkins",
+    "ano": 2016,
+    "generos": [
+      "Drama"
+    ],
+    "duracion_min": 125,
+    "puntuaciones": {
+      "imdb": 8.3,
+      "rotten_tomatoes": 84,
+      "metacritic": 80
+    },
+    "recaudacion_millon_usd": 700.8,
+    "idioma_original": "Ingles",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 8,
+      "oscar_ganados": 0
+    }
+  },
+  {
+    "id": 29,
+    "titulo": "La La Land",
+    "director": "Damien Chazelle",
+    "ano": 2016,
+    "generos": [
+      "Musica",
+      "Romance",
+      "Drama"
+    ],
+    "duracion_min": 159,
+    "puntuaciones": {
+      "imdb": 7.6,
+      "rotten_tomatoes": 96,
+      "metacritic": 65
+    },
+    "recaudacion_millon_usd": 775.5,
+    "idioma_original": "Ingles",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 6,
+      "oscar_ganados": 3
+    }
+  },
+  {
+    "id": 30,
+    "titulo": "Everything Everywhere All at Once",
+    "director": "Daniel Kwan",
+    "ano": 2022,
+    "generos": [
+      "Ciencia Ficcion",
+      "Comedia",
+      "Aventura"
+    ],
+    "duracion_min": 141,
+    "puntuaciones": {
+      "imdb": 8.4,
+      "rotten_tomatoes": 98,
+      "metacritic": 68
+    },
+    "recaudacion_millon_usd": 140.1,
+    "idioma_original": "Ingles",
+    "disponible_streaming": true,
+    "premios": {
+      "oscar_nominaciones": 4,
+      "oscar_ganados": 3
+    }
+  }
+]

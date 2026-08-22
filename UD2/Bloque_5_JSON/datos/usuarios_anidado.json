@@ -1,0 +1,883 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana Garcia",
+    "email": "ana.garcia@ejemplo.es",
+    "edad": 25,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Mayor 13",
+      "ciudad": "Palma",
+      "codigo_postal": "47588",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Deportes",
+        "Libros",
+        "Electronica"
+      ],
+      "notificaciones_email": true
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-100",
+        "fecha": "2024-02-24",
+        "categoria": "Alimentacion",
+        "total_eur": 335.7,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-101",
+        "fecha": "2024-03-25",
+        "categoria": "Alimentacion",
+        "total_eur": 178.03,
+        "items": 2
+      },
+      {
+        "id_pedido": "PED-102",
+        "fecha": "2024-02-07",
+        "categoria": "Libros",
+        "total_eur": 339.52,
+        "items": 5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Carlos Lopez",
+    "email": "carlos.lopez@ejemplo.es",
+    "edad": 59,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Mayor 108",
+      "ciudad": "Sevilla",
+      "codigo_postal": "52697",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Deportes",
+        "Ropa",
+        "Alimentacion"
+      ],
+      "notificaciones_email": true
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-110",
+        "fecha": "2024-01-09",
+        "categoria": "Deportes",
+        "total_eur": 37.77,
+        "items": 2
+      },
+      {
+        "id_pedido": "PED-111",
+        "fecha": "2024-02-21",
+        "categoria": "Electronica",
+        "total_eur": 330.43,
+        "items": 5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Maria Torres",
+    "email": "maria.torres@ejemplo.es",
+    "edad": 41,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Alcala 27",
+      "ciudad": "Palma",
+      "codigo_postal": "18370",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Electronica"
+      ],
+      "notificaciones_email": true
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-120",
+        "fecha": "2024-02-10",
+        "categoria": "Libros",
+        "total_eur": 103.98,
+        "items": 2
+      },
+      {
+        "id_pedido": "PED-121",
+        "fecha": "2024-03-26",
+        "categoria": "Alimentacion",
+        "total_eur": 115.5,
+        "items": 3
+      },
+      {
+        "id_pedido": "PED-122",
+        "fecha": "2024-01-10",
+        "categoria": "Electronica",
+        "total_eur": 168.53,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-123",
+        "fecha": "2024-01-13",
+        "categoria": "Electronica",
+        "total_eur": 195.11,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-124",
+        "fecha": "2024-02-03",
+        "categoria": "Libros",
+        "total_eur": 327.64,
+        "items": 1
+      },
+      {
+        "id_pedido": "PED-125",
+        "fecha": "2024-02-01",
+        "categoria": "Ropa",
+        "total_eur": 110.47,
+        "items": 4
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Pedro Sanchez",
+    "email": "pedro.sanchez@ejemplo.es",
+    "edad": 62,
+    "activo": false,
+    "direccion": {
+      "calle": "Calle Alcala 12",
+      "ciudad": "Barcelona",
+      "codigo_postal": "10441",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Alimentacion"
+      ],
+      "notificaciones_email": false
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-130",
+        "fecha": "2024-02-06",
+        "categoria": "Deportes",
+        "total_eur": 85.56,
+        "items": 3
+      },
+      {
+        "id_pedido": "PED-131",
+        "fecha": "2024-01-27",
+        "categoria": "Alimentacion",
+        "total_eur": 227.47,
+        "items": 3
+      },
+      {
+        "id_pedido": "PED-132",
+        "fecha": "2024-03-05",
+        "categoria": "Hogar",
+        "total_eur": 99.13,
+        "items": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Laura Ruiz",
+    "email": "laura.ruiz@ejemplo.es",
+    "edad": 24,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Gran Via 111",
+      "ciudad": "Palma",
+      "codigo_postal": "18142",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Ropa",
+        "Electronica"
+      ],
+      "notificaciones_email": false
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-140",
+        "fecha": "2024-02-26",
+        "categoria": "Deportes",
+        "total_eur": 251.4,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-141",
+        "fecha": "2024-01-02",
+        "categoria": "Electronica",
+        "total_eur": 40.21,
+        "items": 2
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Jose Martinez",
+    "email": "jose.martinez@ejemplo.es",
+    "edad": 32,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Serrano 7",
+      "ciudad": "Sevilla",
+      "codigo_postal": "21854",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Hogar",
+        "Libros"
+      ],
+      "notificaciones_email": false
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-150",
+        "fecha": "2024-03-28",
+        "categoria": "Libros",
+        "total_eur": 238.42,
+        "items": 3
+      },
+      {
+        "id_pedido": "PED-151",
+        "fecha": "2024-03-12",
+        "categoria": "Hogar",
+        "total_eur": 341.24,
+        "items": 2
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Sofia Herrera",
+    "email": "sofia.herrera@ejemplo.es",
+    "edad": 41,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Gran Via 7",
+      "ciudad": "Zaragoza",
+      "codigo_postal": "52297",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Ropa",
+        "Alimentacion"
+      ],
+      "notificaciones_email": true
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-160",
+        "fecha": "2024-03-30",
+        "categoria": "Electronica",
+        "total_eur": 143.15,
+        "items": 1
+      },
+      {
+        "id_pedido": "PED-161",
+        "fecha": "2024-03-01",
+        "categoria": "Libros",
+        "total_eur": 81.86,
+        "items": 4
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Roberto Diaz",
+    "email": "roberto.diaz@ejemplo.es",
+    "edad": 28,
+    "activo": false,
+    "direccion": {
+      "calle": "Calle Alcala 81",
+      "ciudad": "Madrid",
+      "codigo_postal": "37720",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Electronica",
+        "Hogar",
+        "Libros"
+      ],
+      "notificaciones_email": false
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-170",
+        "fecha": "2024-02-14",
+        "categoria": "Alimentacion",
+        "total_eur": 185.65,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-171",
+        "fecha": "2024-02-12",
+        "categoria": "Electronica",
+        "total_eur": 53.64,
+        "items": 3
+      },
+      {
+        "id_pedido": "PED-172",
+        "fecha": "2024-01-23",
+        "categoria": "Deportes",
+        "total_eur": 337.45,
+        "items": 3
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Elena Moreno",
+    "email": "elena.moreno@ejemplo.es",
+    "edad": 45,
+    "activo": false,
+    "direccion": {
+      "calle": "Calle Mayor 85",
+      "ciudad": "Sevilla",
+      "codigo_postal": "49421",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Electronica",
+        "Ropa",
+        "Deportes"
+      ],
+      "notificaciones_email": false
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-180",
+        "fecha": "2024-03-31",
+        "categoria": "Hogar",
+        "total_eur": 15.57,
+        "items": 5
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Miguel Fernandez",
+    "email": "miguel.fernandez@ejemplo.es",
+    "edad": 41,
+    "activo": false,
+    "direccion": {
+      "calle": "Calle Mayor 78",
+      "ciudad": "Las Palmas",
+      "codigo_postal": "28315",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Deportes",
+        "Alimentacion"
+      ],
+      "notificaciones_email": false
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-190",
+        "fecha": "2024-02-21",
+        "categoria": "Alimentacion",
+        "total_eur": 114.04,
+        "items": 2
+      },
+      {
+        "id_pedido": "PED-191",
+        "fecha": "2024-01-25",
+        "categoria": "Hogar",
+        "total_eur": 237.75,
+        "items": 4
+      },
+      {
+        "id_pedido": "PED-192",
+        "fecha": "2024-03-27",
+        "categoria": "Alimentacion",
+        "total_eur": 317.44,
+        "items": 5
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Carmen Jimenez",
+    "email": "carmen.jimenez@ejemplo.es",
+    "edad": 36,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Gran Via 7",
+      "ciudad": "Bilbao",
+      "codigo_postal": "12350",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Deportes",
+        "Electronica"
+      ],
+      "notificaciones_email": false
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-200",
+        "fecha": "2024-02-26",
+        "categoria": "Hogar",
+        "total_eur": 241.34,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-201",
+        "fecha": "2024-03-01",
+        "categoria": "Alimentacion",
+        "total_eur": 71.85,
+        "items": 1
+      },
+      {
+        "id_pedido": "PED-202",
+        "fecha": "2024-02-06",
+        "categoria": "Deportes",
+        "total_eur": 237.39,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-203",
+        "fecha": "2024-02-12",
+        "categoria": "Electronica",
+        "total_eur": 289.17,
+        "items": 2
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Antonio Vega",
+    "email": "antonio.vega@ejemplo.es",
+    "edad": 30,
+    "activo": false,
+    "direccion": {
+      "calle": "Calle Alcala 114",
+      "ciudad": "Murcia",
+      "codigo_postal": "49934",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Deportes",
+        "Hogar",
+        "Alimentacion"
+      ],
+      "notificaciones_email": true
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-210",
+        "fecha": "2024-03-21",
+        "categoria": "Deportes",
+        "total_eur": 80.14,
+        "items": 4
+      },
+      {
+        "id_pedido": "PED-211",
+        "fecha": "2024-03-04",
+        "categoria": "Hogar",
+        "total_eur": 96.73,
+        "items": 1
+      },
+      {
+        "id_pedido": "PED-212",
+        "fecha": "2024-01-14",
+        "categoria": "Hogar",
+        "total_eur": 88.31,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-213",
+        "fecha": "2024-02-29",
+        "categoria": "Electronica",
+        "total_eur": 201.73,
+        "items": 1
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "Isabel Castro",
+    "email": "isabel.castro@ejemplo.es",
+    "edad": 26,
+    "activo": false,
+    "direccion": {
+      "calle": "Calle Serrano 85",
+      "ciudad": "Sevilla",
+      "codigo_postal": "44577",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Electronica",
+        "Libros"
+      ],
+      "notificaciones_email": false
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-220",
+        "fecha": "2024-03-01",
+        "categoria": "Hogar",
+        "total_eur": 101.83,
+        "items": 2
+      },
+      {
+        "id_pedido": "PED-221",
+        "fecha": "2024-03-22",
+        "categoria": "Ropa",
+        "total_eur": 271.55,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-222",
+        "fecha": "2024-03-03",
+        "categoria": "Alimentacion",
+        "total_eur": 95.15,
+        "items": 4
+      },
+      {
+        "id_pedido": "PED-223",
+        "fecha": "2024-01-10",
+        "categoria": "Alimentacion",
+        "total_eur": 110.72,
+        "items": 3
+      },
+      {
+        "id_pedido": "PED-224",
+        "fecha": "2024-02-12",
+        "categoria": "Ropa",
+        "total_eur": 314.16,
+        "items": 1
+      },
+      {
+        "id_pedido": "PED-225",
+        "fecha": "2024-01-18",
+        "categoria": "Libros",
+        "total_eur": 92.47,
+        "items": 2
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "Francisco Molina",
+    "email": "francisco.molina@ejemplo.es",
+    "edad": 53,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Alcala 112",
+      "ciudad": "Sevilla",
+      "codigo_postal": "41129",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Ropa",
+        "Hogar"
+      ],
+      "notificaciones_email": true
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-230",
+        "fecha": "2024-03-15",
+        "categoria": "Alimentacion",
+        "total_eur": 21.54,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-231",
+        "fecha": "2024-02-18",
+        "categoria": "Hogar",
+        "total_eur": 16.98,
+        "items": 3
+      },
+      {
+        "id_pedido": "PED-232",
+        "fecha": "2024-02-08",
+        "categoria": "Hogar",
+        "total_eur": 300.91,
+        "items": 4
+      },
+      {
+        "id_pedido": "PED-233",
+        "fecha": "2024-03-09",
+        "categoria": "Alimentacion",
+        "total_eur": 261.1,
+        "items": 5
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "Lucia Romero",
+    "email": "lucia.romero@ejemplo.es",
+    "edad": 51,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Alcala 98",
+      "ciudad": "Sevilla",
+      "codigo_postal": "27870",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Ropa",
+        "Electronica"
+      ],
+      "notificaciones_email": false
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-240",
+        "fecha": "2024-01-17",
+        "categoria": "Deportes",
+        "total_eur": 193.93,
+        "items": 4
+      },
+      {
+        "id_pedido": "PED-241",
+        "fecha": "2024-03-16",
+        "categoria": "Deportes",
+        "total_eur": 237.1,
+        "items": 1
+      },
+      {
+        "id_pedido": "PED-242",
+        "fecha": "2024-03-23",
+        "categoria": "Hogar",
+        "total_eur": 60.46,
+        "items": 4
+      },
+      {
+        "id_pedido": "PED-243",
+        "fecha": "2024-01-24",
+        "categoria": "Electronica",
+        "total_eur": 102.15,
+        "items": 3
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "nombre": "Pablo Navarro",
+    "email": "pablo.navarro@ejemplo.es",
+    "edad": 63,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Mayor 8",
+      "ciudad": "Sevilla",
+      "codigo_postal": "25304",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Deportes"
+      ],
+      "notificaciones_email": true
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-250",
+        "fecha": "2024-03-10",
+        "categoria": "Electronica",
+        "total_eur": 349.97,
+        "items": 3
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "nombre": "Teresa Gutierrez",
+    "email": "teresa.gutierrez@ejemplo.es",
+    "edad": 60,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Gran Via 80",
+      "ciudad": "Valencia",
+      "codigo_postal": "16692",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Ropa"
+      ],
+      "notificaciones_email": false
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-260",
+        "fecha": "2024-01-17",
+        "categoria": "Hogar",
+        "total_eur": 239.27,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-261",
+        "fecha": "2024-01-28",
+        "categoria": "Hogar",
+        "total_eur": 249.32,
+        "items": 3
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "nombre": "Manuel Ramos",
+    "email": "manuel.ramos@ejemplo.es",
+    "edad": 63,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Mayor 108",
+      "ciudad": "Palma",
+      "codigo_postal": "41208",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Ropa",
+        "Hogar"
+      ],
+      "notificaciones_email": true
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-270",
+        "fecha": "2024-01-26",
+        "categoria": "Electronica",
+        "total_eur": 213.35,
+        "items": 2
+      },
+      {
+        "id_pedido": "PED-271",
+        "fecha": "2024-01-14",
+        "categoria": "Alimentacion",
+        "total_eur": 273.78,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-272",
+        "fecha": "2024-01-16",
+        "categoria": "Deportes",
+        "total_eur": 277.18,
+        "items": 3
+      },
+      {
+        "id_pedido": "PED-273",
+        "fecha": "2024-03-09",
+        "categoria": "Hogar",
+        "total_eur": 236.61,
+        "items": 1
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "nombre": "Pilar Serrano",
+    "email": "pilar.serrano@ejemplo.es",
+    "edad": 51,
+    "activo": false,
+    "direccion": {
+      "calle": "Calle Alcala 8",
+      "ciudad": "Sevilla",
+      "codigo_postal": "41971",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Libros",
+        "Hogar"
+      ],
+      "notificaciones_email": true
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-280",
+        "fecha": "2024-01-23",
+        "categoria": "Alimentacion",
+        "total_eur": 189.79,
+        "items": 3
+      },
+      {
+        "id_pedido": "PED-281",
+        "fecha": "2024-03-19",
+        "categoria": "Deportes",
+        "total_eur": 274.5,
+        "items": 4
+      },
+      {
+        "id_pedido": "PED-282",
+        "fecha": "2024-02-25",
+        "categoria": "Alimentacion",
+        "total_eur": 213.48,
+        "items": 3
+      },
+      {
+        "id_pedido": "PED-283",
+        "fecha": "2024-02-01",
+        "categoria": "Electronica",
+        "total_eur": 108.44,
+        "items": 4
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "nombre": "David Iglesias",
+    "email": "david.iglesias@ejemplo.es",
+    "edad": 57,
+    "activo": true,
+    "direccion": {
+      "calle": "Calle Serrano 126",
+      "ciudad": "Murcia",
+      "codigo_postal": "38911",
+      "pais": "Espana"
+    },
+    "preferencias": {
+      "categorias_favoritas": [
+        "Electronica"
+      ],
+      "notificaciones_email": false
+    },
+    "historial_compras": [
+      {
+        "id_pedido": "PED-290",
+        "fecha": "2024-02-03",
+        "categoria": "Ropa",
+        "total_eur": 108.69,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-291",
+        "fecha": "2024-03-30",
+        "categoria": "Ropa",
+        "total_eur": 201.19,
+        "items": 5
+      },
+      {
+        "id_pedido": "PED-292",
+        "fecha": "2024-01-25",
+        "categoria": "Electronica",
+        "total_eur": 95.85,
+        "items": 4
+      }
+    ]
+  }
+]
