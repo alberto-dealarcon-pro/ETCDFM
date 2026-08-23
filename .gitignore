@@ -20,6 +20,13 @@
 *.sqlite
 *.sqlite3
 *.duckdb
+# Ficheros temporales SQLite (journal/WAL)
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
 
 # Formatos binarios de datos ML
 *.parquet
@@ -66,3 +73,10 @@ desktop.ini
 !UD2/**/datos/*.arrow
 !UD2/**/datos/*.h5
 !UD2/**/datos/*.hdf5
+
+# Excepciones UD3: bases de datos SQLite y ficheros de ejemplo
+!UD3/**/datos/*.db
+!UD3/**/datos/*.sqlite
+!UD3/**/datos/*.csv
+!UD3/**/datos/*.json
+!UD3/**/datos/*.parquet

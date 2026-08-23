@@ -1,0 +1,31 @@
+id_producto,nombre,id_categoria,precio,coste,stock,proveedor,activo
+201,Producto Nuevo 001,6,758.55,355.34,12,TechDistrib SL,1
+202,Producto Nuevo 002,2,295.72,108.65,129,MegaSupply SA,1
+203,Producto Nuevo 003,1,73.33,34.86,61,TechDistrib SL,1
+204,Producto Nuevo 004,7,51.99,27.02,57,AsianTrade,1
+205,Producto Nuevo 005,1,463.8,217.52,56,TechDistrib SL,1
+206,Producto Nuevo 006,3,235.24,92.51,30,AsianTrade,1
+207,Producto Nuevo 007,5,450.4,249.79,26,AsianTrade,1
+208,Producto Nuevo 008,4,301.06,154.84,16,AsianTrade,1
+209,Producto Nuevo 009,1,497.11,248.02,136,NationalCorp,1
+210,Producto Nuevo 010,6,375.15,235.23,92,EuroImport,1
+211,Producto Nuevo 011,4,636.53,356.26,62,TechDistrib SL,1
+212,Producto Nuevo 012,5,422.53,258.82,114,EuroImport,1
+213,Producto Nuevo 013,2,98.86,47.0,87,MegaSupply SA,1
+214,Producto Nuevo 014,8,340.25,217.29,19,AsianTrade,1
+215,Producto Nuevo 015,6,275.4,125.32,127,AsianTrade,1
+216,Producto Nuevo 016,8,59.67,22.56,69,NationalCorp,1
+217,Producto Nuevo 017,2,53.23,29.83,147,NationalCorp,1
+218,Producto Nuevo 018,5,574.72,354.09,88,TechDistrib SL,1
+219,Producto Nuevo 019,8,287.59,153.36,126,TechDistrib SL,1
+220,Producto Nuevo 020,4,615.75,239.4,63,NationalCorp,1
+221,Producto Nuevo 021,7,733.87,366.17,42,NationalCorp,1
+222,Producto Nuevo 022,7,441.8,271.71,110,AsianTrade,1
+223,Producto Nuevo 023,5,566.59,365.98,97,MegaSupply SA,1
+224,Producto Nuevo 024,3,70.97,28.06,59,TechDistrib SL,1
+225,Producto Nuevo 025,8,665.72,269.42,72,TechDistrib SL,1
+226,Producto Nuevo 026,3,338.06,155.77,144,EuroImport,1
+227,Producto Nuevo 027,3,553.94,279.54,13,NationalCorp,1
+228,Producto Nuevo 028,7,321.47,150.52,123,NationalCorp,1
+229,Producto Nuevo 029,1,156.53,101.02,112,MegaSupply SA,1
+230,Producto Nuevo 030,2,275.34,100.71,0,AsianTrade,1
