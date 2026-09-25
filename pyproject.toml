@@ -1,0 +1,37 @@
+[project]
+name = "etcdfm"
+version = "2026.1"
+description = "Extracción, transformación y carga de datos desde fuentes múltiples (5104) - Curso de Especialización en Aprendizaje Automático: gestión de datos y entrenamiento"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    # Jupyter en VS Code
+    "ipykernel",
+    "ipywidgets",
+    "pip",               # algunos cuadernos comprueban/instalan paquetes con `python -m pip`
+    # Manipulación de datos
+    "numpy",
+    "pandas<3",          # los cuadernos están escritos para pandas 2.x
+    # Formatos de fichero (UD1 B2, UD2)
+    "pyarrow",           # Parquet, Feather/Arrow
+    "openpyxl",          # leer/escribir Excel (UD2 B2)
+    "lxml",              # XML y validación con XSD (UD2 B4)
+    "h5py",              # HDF5 (UD1 B2, UD2 B3)
+    "pillow",            # metadatos EXIF de imágenes (UD1 ejercicios)
+    # Bases de datos (UD1 B2, UD3)
+    "duckdb",            # base de datos analítica embebida
+    "sqlalchemy",        # conexión pandas <-> SQL (UD3)
+    # Procesamiento masivo (UD1 B3)
+    "dask[dataframe]",
+    # Grafos (UD1 B2)
+    "networkx",
+    # APIs REST (UD1 B1, UD5)
+    "requests",
+    # Visualización y ML
+    "matplotlib",
+    "scikit-learn",
+]
+
+[tool.uv]
+# El repositorio no es un paquete instalable: solo gestionamos el entorno
+package = false

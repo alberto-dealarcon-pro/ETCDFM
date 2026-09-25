@@ -80,3 +80,12 @@ desktop.ini
 !UD3/**/datos/*.csv
 !UD3/**/datos/*.json
 !UD3/**/datos/*.parquet
+
+# -------------------------------------------------------
+# Trabajo personal del alumnado (no se sube a GitHub)
+# -------------------------------------------------------
+mis_cuadernos/*
+!mis_cuadernos/LEEME.md
+
+# Configuración compartida de VS Code (excepción a *.json)
+!.vscode/*.json
