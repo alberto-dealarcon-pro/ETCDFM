@@ -22,7 +22,8 @@ dependencies = [
     "duckdb",            # base de datos analítica embebida
     "sqlalchemy",        # conexión pandas <-> SQL (UD3)
     # Procesamiento masivo (UD1 B3)
-    "dask[dataframe]",
+    "dask[dataframe,diagnostics,distributed]",  # Client() y panel de control (dashboard)
+    "bokeh>=3.1,<3.10",  # el panel de Dask falla con bokeh 3.10
     # Grafos (UD1 B2)
     "networkx",
     # APIs REST (UD1 B1, UD5)
