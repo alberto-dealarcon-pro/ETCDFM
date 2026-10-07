@@ -6,5 +6,14 @@
     "files.exclude": {
         "**/.ipynb_checkpoints": true,
         "**/__pycache__": true
+    },
+    "chat.agentSkillsLocations": {
+        ".agents/skills": true,
+        ".github/skills": true,
+        ".claude/skills": true,
+        "~/.agents/skills": true,
+        "~/.copilot/skills": true,
+        "~/.claude/skills": true,
+        "~/.vscode/extensions/synapsevscode.synapse-1.26.0/copilot/skills": true
     }
 }
