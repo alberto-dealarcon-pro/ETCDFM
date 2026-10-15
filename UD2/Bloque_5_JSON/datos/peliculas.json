@@ -19,8 +19,8 @@
     "idioma_original": "Ingles",
     "disponible_streaming": false,
     "premios": {
-      "oscar_nominaciones": 1,
-      "oscar_ganados": 4
+      "oscar_nominaciones": 4,
+      "oscar_ganados": 1
     }
   },
   {
@@ -66,8 +66,8 @@
     "idioma_original": "Aleman",
     "disponible_streaming": true,
     "premios": {
-      "oscar_nominaciones": 0,
-      "oscar_ganados": 1
+      "oscar_nominaciones": 1,
+      "oscar_ganados": 0
     }
   },
   {
@@ -89,8 +89,8 @@
     "idioma_original": "Ingles",
     "disponible_streaming": true,
     "premios": {
-      "oscar_nominaciones": 1,
-      "oscar_ganados": 3
+      "oscar_nominaciones": 3,
+      "oscar_ganados": 1
     }
   },
   {
@@ -113,8 +113,8 @@
     "idioma_original": "Coreano",
     "disponible_streaming": false,
     "premios": {
-      "oscar_nominaciones": 1,
-      "oscar_ganados": 3
+      "oscar_nominaciones": 3,
+      "oscar_ganados": 1
     }
   },
   {
@@ -371,8 +371,8 @@
     "idioma_original": "Ingles",
     "disponible_streaming": false,
     "premios": {
-      "oscar_nominaciones": 2,
-      "oscar_ganados": 4
+      "oscar_nominaciones": 4,
+      "oscar_ganados": 2
     }
   },
   {
@@ -395,8 +395,8 @@
     "idioma_original": "Ingles",
     "disponible_streaming": true,
     "premios": {
-      "oscar_nominaciones": 2,
-      "oscar_ganados": 4
+      "oscar_nominaciones": 4,
+      "oscar_ganados": 2
     }
   },
   {
@@ -419,8 +419,8 @@
     "idioma_original": "Coreano",
     "disponible_streaming": true,
     "premios": {
-      "oscar_nominaciones": 1,
-      "oscar_ganados": 2
+      "oscar_nominaciones": 2,
+      "oscar_ganados": 1
     }
   },
   {
@@ -443,8 +443,8 @@
     "idioma_original": "Aleman",
     "disponible_streaming": true,
     "premios": {
-      "oscar_nominaciones": 1,
-      "oscar_ganados": 3
+      "oscar_nominaciones": 3,
+      "oscar_ganados": 1
     }
   },
   {

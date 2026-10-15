@@ -2,6 +2,11 @@
 # Archivos generados por los cuadernos Jupyter
 # -------------------------------------------------------
 
+# Salidas de los cuadernos de teoría (se regeneran al ejecutarlos)
+UD2/**/salida/
+UD2/ejercicios/salida_dask/
+UD2/ejercicios/*.ndjson
+
 # Datos tabulares
 *.csv
 *.tsv

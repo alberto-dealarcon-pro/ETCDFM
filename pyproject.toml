@@ -16,6 +16,7 @@ dependencies = [
     "pyarrow",           # Parquet, Feather/Arrow
     "openpyxl",          # leer/escribir Excel (UD2 B2)
     "lxml",              # XML y validación con XSD (UD2 B4)
+    "jsonschema",        # validación de JSON con JSON Schema (UD2 B5)
     "h5py",              # HDF5 (UD1 B2, UD2 B3)
     "pillow",            # metadatos EXIF de imágenes (UD1 ejercicios)
     # Bases de datos (UD1 B2, UD3)
