@@ -19,10 +19,14 @@ ETCDFM/
 │   ├── Bloque_2_Sistemas_de_almacenamiento/
 │   ├── Bloque_3_Procesamiento_masivo/
 │   └── Bloque_4_Pipelines_ETL_ELT/
-├── UD2/   Extracción y carga desde ficheros de texto estructurados
-│   ├── Bloque_1_Ficheros_planos_CSV/
-│   ├── Bloque_2_JSON_y_XML/
-│   └── Bloque_3_Formatos_ML_Parquet_Arrow/
+├── UD2/   Formatos de fichero de datos
+│   ├── Bloque_1_Panorama_de_formatos/
+│   ├── Bloque_2_CSV_y_Excel/
+│   ├── Bloque_3_Formatos_avanzados/
+│   ├── Bloque_4_XML/
+│   ├── Bloque_5_JSON/
+│   ├── ejercicios/
+│   └── miniproyecto/
 ├── UD3/   Extracción y carga desde bases de datos relacionales
 │   ├── Bloque_1_SQL_consultas_y_extraccion/
 │   ├── Bloque_2_Transformaciones_complejas/
